@@ -1,9 +1,9 @@
-package com.solidrback.solidrback.client.impl;
+package com.solidrback.client.impl;
 
-import com.solidrback.solidrback.client.BinanceApiError;
-import com.solidrback.solidrback.client.config.BinanceApiConfig;
-import com.solidrback.solidrback.client.exception.BinanceApiException;
-import com.solidrback.solidrback.client.security.AuthenticationInterceptor;
+import com.solidrback.client.BinanceApiError;
+import com.solidrback.client.config.BinanceApiConfig;
+import com.solidrback.client.exception.BinanceApiException;
+import com.solidrback.client.security.AuthenticationInterceptor;
 import okhttp3.Dispatcher;
 import okhttp3.OkHttpClient;
 import okhttp3.ResponseBody;

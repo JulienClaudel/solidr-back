@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.model.CommentDTO;
-import com.solidrback.solidrback.model.entity.Comment;
-import com.solidrback.solidrback.repository.CommentRepository;
+import com.solidrback.model.CommentDTO;
+import com.solidrback.model.entity.Comment;
+import com.solidrback.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

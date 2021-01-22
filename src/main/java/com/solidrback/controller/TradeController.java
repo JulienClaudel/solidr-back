@@ -1,12 +1,12 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
-import com.solidrback.solidrback.client.domain.TimeInForce;
-import com.solidrback.solidrback.client.domain.account.NewOrderResponse;
-import com.solidrback.solidrback.model.TradeDTO;
-import com.solidrback.solidrback.model.TradeMinDTO;
-import com.solidrback.solidrback.model.entity.Trade;
-import com.solidrback.solidrback.service.EmailSenderService;
-import com.solidrback.solidrback.service.TradeService;
+import com.solidrback.client.domain.TimeInForce;
+import com.solidrback.client.domain.account.NewOrderResponse;
+import com.solidrback.model.TradeDTO;
+import com.solidrback.model.TradeMinDTO;
+import com.solidrback.model.entity.Trade;
+import com.solidrback.service.EmailSenderService;
+import com.solidrback.service.TradeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mail.SimpleMailMessage;

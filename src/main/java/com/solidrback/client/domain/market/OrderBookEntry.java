@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.client.domain.market;
+package com.solidrback.client.domain.market;
 
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.constant.BinanceApiConstants;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

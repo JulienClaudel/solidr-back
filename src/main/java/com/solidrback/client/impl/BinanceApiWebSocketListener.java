@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.client.impl;
+package com.solidrback.client.impl;
 
-import com.solidrback.solidrback.client.BinanceApiCallback;
-import com.solidrback.solidrback.client.exception.BinanceApiException;
+import com.solidrback.client.BinanceApiCallback;
+import com.solidrback.client.exception.BinanceApiException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;

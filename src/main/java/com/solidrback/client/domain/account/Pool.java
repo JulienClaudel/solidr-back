@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client.domain.account;
+package com.solidrback.client.domain.account;
 
 import java.util.List;
 

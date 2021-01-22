@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.client.domain.account.AssetBalance;
-import com.solidrback.solidrback.model.entity.Wallet;
+import com.solidrback.client.domain.account.AssetBalance;
+import com.solidrback.model.entity.Wallet;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

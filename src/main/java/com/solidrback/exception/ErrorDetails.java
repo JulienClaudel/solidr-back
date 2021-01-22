@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.exception;
+package com.solidrback.exception;
 
 import java.util.Date;
 

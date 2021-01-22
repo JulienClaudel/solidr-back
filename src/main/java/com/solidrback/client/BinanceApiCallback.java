@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client;
+package com.solidrback.client;
 
 /**
  * BinanceApiCallback is a functional interface used together with the BinanceApiAsyncClient to provide a non-blocking REST client.

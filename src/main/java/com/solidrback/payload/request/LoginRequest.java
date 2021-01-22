@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.payload.request;
+package com.solidrback.payload.request;
 
 // The information requested at the front for the login
 public class LoginRequest {

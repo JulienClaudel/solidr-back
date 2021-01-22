@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client.domain.market;
+package com.solidrback.client.domain.market;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;

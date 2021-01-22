@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client.security;
+package com.solidrback.client.security;
 
 import org.apache.commons.codec.binary.Hex;
 

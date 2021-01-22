@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.enums;
+package com.solidrback.enums;
 
 import lombok.Getter;
 

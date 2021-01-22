@@ -1,15 +1,15 @@
-package com.solidrback.solidrback.client.impl;
+package com.solidrback.client.impl;
 
-import com.solidrback.solidrback.client.BinanceApiCallback;
-import com.solidrback.solidrback.client.BinanceApiError;
-import com.solidrback.solidrback.client.exception.BinanceApiException;
+import com.solidrback.client.BinanceApiCallback;
+import com.solidrback.client.BinanceApiError;
+import com.solidrback.client.exception.BinanceApiException;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 import java.io.IOException;
 
-import static com.solidrback.solidrback.client.impl.BinanceApiServiceGenerator.getBinanceApiError;
+import static com.solidrback.client.impl.BinanceApiServiceGenerator.getBinanceApiError;
 
 /**
  * An adapter/wrapper which transforms a Callback from Retrofit into a BinanceApiCallback which is exposed to the client.

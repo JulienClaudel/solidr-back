@@ -1,6 +1,6 @@
-package com.solidrback.solidrback;
+package com.solidrback;
 
-import com.solidrback.solidrback.configuration.*;
+import com.solidrback.configuration.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

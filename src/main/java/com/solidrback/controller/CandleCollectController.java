@@ -1,11 +1,11 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
 
-import com.solidrback.solidrback.enums.Interval;
-import com.solidrback.solidrback.enums.Limit;
-import com.solidrback.solidrback.enums.Symbol;
-import com.solidrback.solidrback.model.CandleCollect;
-import com.solidrback.solidrback.service.CandleCollectService;
+import com.solidrback.enums.Interval;
+import com.solidrback.enums.Limit;
+import com.solidrback.enums.Symbol;
+import com.solidrback.model.CandleCollect;
+import com.solidrback.service.CandleCollectService;
 import org.junit.jupiter.api.Assertions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

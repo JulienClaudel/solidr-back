@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.model;
+package com.solidrback.model;
 
 import java.math.BigInteger;
 import java.time.LocalDate;

@@ -1,39 +1,39 @@
-package com.solidrback.solidrback.client.impl;
+package com.solidrback.client.impl;
 
-import com.solidrback.solidrback.client.BinanceApiAsyncRestClient;
-import com.solidrback.solidrback.client.BinanceApiCallback;
-import com.solidrback.solidrback.client.config.BinanceApiConfig;
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
-import com.solidrback.solidrback.client.domain.account.Account;
-import com.solidrback.solidrback.client.domain.account.DepositAddress;
-import com.solidrback.solidrback.client.domain.account.DepositHistory;
-import com.solidrback.solidrback.client.domain.account.NewOrder;
-import com.solidrback.solidrback.client.domain.account.NewOrderResponse;
-import com.solidrback.solidrback.client.domain.account.Order;
-import com.solidrback.solidrback.client.domain.account.Trade;
-import com.solidrback.solidrback.client.domain.account.TradeHistoryItem;
-import com.solidrback.solidrback.client.domain.account.WithdrawHistory;
-import com.solidrback.solidrback.client.domain.account.WithdrawResult;
-import com.solidrback.solidrback.client.domain.account.request.AllOrdersRequest;
-import com.solidrback.solidrback.client.domain.account.request.CancelOrderRequest;
-import com.solidrback.solidrback.client.domain.account.request.CancelOrderResponse;
-import com.solidrback.solidrback.client.domain.account.request.OrderRequest;
-import com.solidrback.solidrback.client.domain.account.request.OrderStatusRequest;
-import com.solidrback.solidrback.client.domain.event.ListenKey;
-import com.solidrback.solidrback.client.domain.general.Asset;
-import com.solidrback.solidrback.client.domain.general.ExchangeInfo;
-import com.solidrback.solidrback.client.domain.general.ServerTime;
-import com.solidrback.solidrback.client.domain.market.AggTrade;
-import com.solidrback.solidrback.client.domain.market.BookTicker;
-import com.solidrback.solidrback.client.domain.market.Candlestick;
-import com.solidrback.solidrback.client.domain.market.CandlestickInterval;
-import com.solidrback.solidrback.client.domain.market.OrderBook;
-import com.solidrback.solidrback.client.domain.market.TickerPrice;
-import com.solidrback.solidrback.client.domain.market.TickerStatistics;
+import com.solidrback.client.BinanceApiAsyncRestClient;
+import com.solidrback.client.BinanceApiCallback;
+import com.solidrback.client.config.BinanceApiConfig;
+import com.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.domain.account.Account;
+import com.solidrback.client.domain.account.DepositAddress;
+import com.solidrback.client.domain.account.DepositHistory;
+import com.solidrback.client.domain.account.NewOrder;
+import com.solidrback.client.domain.account.NewOrderResponse;
+import com.solidrback.client.domain.account.Order;
+import com.solidrback.client.domain.account.Trade;
+import com.solidrback.client.domain.account.TradeHistoryItem;
+import com.solidrback.client.domain.account.WithdrawHistory;
+import com.solidrback.client.domain.account.WithdrawResult;
+import com.solidrback.client.domain.account.request.AllOrdersRequest;
+import com.solidrback.client.domain.account.request.CancelOrderRequest;
+import com.solidrback.client.domain.account.request.CancelOrderResponse;
+import com.solidrback.client.domain.account.request.OrderRequest;
+import com.solidrback.client.domain.account.request.OrderStatusRequest;
+import com.solidrback.client.domain.event.ListenKey;
+import com.solidrback.client.domain.general.Asset;
+import com.solidrback.client.domain.general.ExchangeInfo;
+import com.solidrback.client.domain.general.ServerTime;
+import com.solidrback.client.domain.market.AggTrade;
+import com.solidrback.client.domain.market.BookTicker;
+import com.solidrback.client.domain.market.Candlestick;
+import com.solidrback.client.domain.market.CandlestickInterval;
+import com.solidrback.client.domain.market.OrderBook;
+import com.solidrback.client.domain.market.TickerPrice;
+import com.solidrback.client.domain.market.TickerStatistics;
 
 import java.util.List;
 
-import static com.solidrback.solidrback.client.impl.BinanceApiServiceGenerator.createService;
+import static com.solidrback.client.impl.BinanceApiServiceGenerator.createService;
 
 /**
  * Implementation of Binance's REST API using Retrofit with asynchronous/non-blocking method calls.

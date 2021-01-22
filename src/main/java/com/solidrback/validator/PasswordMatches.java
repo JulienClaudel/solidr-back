@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.validator;
+package com.solidrback.validator;
 
 import javax.validation.Payload;
 import java.lang.annotation.Documented;

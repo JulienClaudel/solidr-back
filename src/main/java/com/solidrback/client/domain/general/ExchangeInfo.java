@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.client.domain.general;
+package com.solidrback.client.domain.general;
 
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
-import com.solidrback.solidrback.client.exception.BinanceApiException;
+import com.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.exception.BinanceApiException;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

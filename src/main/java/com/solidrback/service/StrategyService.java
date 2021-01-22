@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.model.StrategyDTO;
-import com.solidrback.solidrback.model.entity.Strategy;
+import com.solidrback.model.StrategyDTO;
+import com.solidrback.model.entity.Strategy;
 
 import java.util.List;
 import java.util.Optional;

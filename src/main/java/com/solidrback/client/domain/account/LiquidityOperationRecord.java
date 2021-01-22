@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.client.domain.account;
+package com.solidrback.client.domain.account;
 
-import com.solidrback.solidrback.client.domain.LiquidityOperationRecordStatus;
+import com.solidrback.client.domain.LiquidityOperationRecordStatus;
 
 public class LiquidityOperationRecord {
 

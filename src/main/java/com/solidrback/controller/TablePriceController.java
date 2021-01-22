@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
-import com.solidrback.solidrback.exception.ResourceNotFoundException;
-import com.solidrback.solidrback.model.entity.TablePrice;
-import com.solidrback.solidrback.repository.TablePriceRepository;
+import com.solidrback.exception.ResourceNotFoundException;
+import com.solidrback.model.entity.TablePrice;
+import com.solidrback.repository.TablePriceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

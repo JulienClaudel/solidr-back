@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client.exception;
+package com.solidrback.client.exception;
 
 public class UnsupportedEventException extends IllegalArgumentException {
   private static final long serialVersionUID = -1852755188564122928L;

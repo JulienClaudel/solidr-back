@@ -1,9 +1,9 @@
-package com.solidrback.solidrback.repository;
+package com.solidrback.repository;
 
-import com.solidrback.solidrback.enums.Interval;
-import com.solidrback.solidrback.enums.Limit;
-import com.solidrback.solidrback.enums.Symbol;
-import com.solidrback.solidrback.model.CandleCollect;
+import com.solidrback.enums.Interval;
+import com.solidrback.enums.Limit;
+import com.solidrback.enums.Symbol;
+import com.solidrback.model.CandleCollect;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;

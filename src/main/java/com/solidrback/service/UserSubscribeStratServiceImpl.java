@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.model.UserSubscribeStratDTO;
-import com.solidrback.solidrback.model.entity.UserSubscribeStrat;
-import com.solidrback.solidrback.repository.UserSubscribeStratRepository;
+import com.solidrback.model.UserSubscribeStratDTO;
+import com.solidrback.model.entity.UserSubscribeStrat;
+import com.solidrback.repository.UserSubscribeStratRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

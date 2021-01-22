@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.model.entity.UserData;
+import com.solidrback.model.entity.UserData;
 
 import java.util.List;
 

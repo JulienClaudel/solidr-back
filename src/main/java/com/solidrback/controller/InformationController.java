@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
-import com.solidrback.solidrback.model.entity.Information;
-import com.solidrback.solidrback.repository.InformationRepository;
-import com.solidrback.solidrback.service.InformationService;
+import com.solidrback.model.entity.Information;
+import com.solidrback.repository.InformationRepository;
+import com.solidrback.service.InformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

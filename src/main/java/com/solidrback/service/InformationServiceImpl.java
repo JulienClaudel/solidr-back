@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.model.entity.Information;
-import com.solidrback.solidrback.repository.InformationRepository;
+import com.solidrback.model.entity.Information;
+import com.solidrback.repository.InformationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

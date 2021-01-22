@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.model.CommentDTO;
-import com.solidrback.solidrback.model.entity.Comment;
+import com.solidrback.model.CommentDTO;
+import com.solidrback.model.entity.Comment;
 
 import java.util.List;
 

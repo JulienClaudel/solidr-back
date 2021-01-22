@@ -1,9 +1,9 @@
-package com.solidrback.solidrback.configuration;
+package com.solidrback.configuration;
 
-import com.solidrback.solidrback.client.BinanceApiClientFactory;
-import com.solidrback.solidrback.client.BinanceApiRestClient;
-import com.solidrback.solidrback.client.domain.account.Account;
-import com.solidrback.solidrback.client.domain.account.Trade;
+import com.solidrback.client.BinanceApiClientFactory;
+import com.solidrback.client.BinanceApiRestClient;
+import com.solidrback.client.domain.account.Account;
+import com.solidrback.client.domain.account.Trade;
 
 import java.util.List;
 

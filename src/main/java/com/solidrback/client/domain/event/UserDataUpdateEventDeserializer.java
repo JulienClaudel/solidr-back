@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.client.domain.event;
+package com.solidrback.client.domain.event;
 
-import com.solidrback.solidrback.client.domain.event.UserDataUpdateEvent.UserDataUpdateEventType;
-import com.solidrback.solidrback.client.exception.BinanceApiException;
+import com.solidrback.client.domain.event.UserDataUpdateEvent.UserDataUpdateEventType;
+import com.solidrback.client.exception.BinanceApiException;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.ObjectCodec;
 import com.fasterxml.jackson.databind.DeserializationContext;

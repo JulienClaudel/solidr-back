@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.model.entity;
+package com.solidrback.model.entity;
 
 import com.fasterxml.jackson.annotation.*;
 

@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.client.domain.account;
+package com.solidrback.client.domain.account;
 
-import com.solidrback.solidrback.client.domain.LoanStatus;
+import com.solidrback.client.domain.LoanStatus;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 /**

@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.client.domain.event;
+package com.solidrback.client.domain.event;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.constant.BinanceApiConstants;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 

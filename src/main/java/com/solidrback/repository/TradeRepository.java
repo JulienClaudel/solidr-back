@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.repository;
+package com.solidrback.repository;
 
-import com.solidrback.solidrback.model.TradeDTO;
-import com.solidrback.solidrback.model.TradeMinDTO;
-import com.solidrback.solidrback.model.entity.Trade;
+import com.solidrback.model.TradeDTO;
+import com.solidrback.model.TradeMinDTO;
+import com.solidrback.model.entity.Trade;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
@@ -11,7 +11,7 @@ import java.util.List;
 public interface TradeRepository extends JpaRepository<Trade, Integer> {
 
     // Obligation to put a special query to match with the DTO model/service/impl
-    @Query("SELECT new com.solidrback.solidrback.model.TradeDTO(" +
+    @Query("SELECT new com.solidrback.model.TradeDTO(" +
             "t.tradeOrderlistid, " +
             "t.userEmail, " +
             "t.statusId, " +
@@ -34,7 +34,7 @@ public interface TradeRepository extends JpaRepository<Trade, Integer> {
             "t.tradeUpdateDate) FROM Trade t")
     List<TradeDTO> saveDTO(TradeDTO tradedto);
 
-    @Query("SELECT new com.solidrback.solidrback.model.TradeDTO(" +
+    @Query("SELECT new com.solidrback.model.TradeDTO(" +
             "t.tradeOrderlistid, " +
             "t.userEmail, " +
             "t.statusId, " +
@@ -57,7 +57,7 @@ public interface TradeRepository extends JpaRepository<Trade, Integer> {
             "t.tradeUpdateDate) FROM Trade t")
     List<TradeDTO> findAllTrades();
 
-    @Query("SELECT new com.solidrback.solidrback.model.TradeMinDTO(" +
+    @Query("SELECT new com.solidrback.model.TradeMinDTO(" +
             "t.tradeAmountSymbol1, " +
             "t.tradeAmountSymbol2," +
             "t.tradePrice, " +
@@ -66,7 +66,7 @@ public interface TradeRepository extends JpaRepository<Trade, Integer> {
             "t.tradeCreationDate) FROM Trade t")
     List<TradeMinDTO> findLittleListTrades();
 
-    @Query("SELECT new com.solidrback.solidrback.model.TradeDTO(" +
+    @Query("SELECT new com.solidrback.model.TradeDTO(" +
             "t.tradeOrderlistid, " +
             "t.userEmail, " +
             "t.statusId, " +

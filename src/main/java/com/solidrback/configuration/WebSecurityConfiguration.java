@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.configuration;
+package com.solidrback.configuration;
 
-import com.solidrback.solidrback.security.AuthEntryPointJwt;
-import com.solidrback.solidrback.security.AuthTokenFilter;
-import com.solidrback.solidrback.service.UserDetailsServiceImpl;
+import com.solidrback.security.AuthEntryPointJwt;
+import com.solidrback.security.AuthTokenFilter;
+import com.solidrback.service.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

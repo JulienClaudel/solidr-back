@@ -1,11 +1,11 @@
-package com.solidrback.solidrback.client.impl;
+package com.solidrback.client.impl;
 
-import com.solidrback.solidrback.client.BinanceApiCallback;
-import com.solidrback.solidrback.client.BinanceApiWebSocketClient;
-import com.solidrback.solidrback.client.config.BinanceApiConfig;
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
-import com.solidrback.solidrback.client.domain.event.*;
-import com.solidrback.solidrback.client.domain.market.CandlestickInterval;
+import com.solidrback.client.BinanceApiCallback;
+import com.solidrback.client.BinanceApiWebSocketClient;
+import com.solidrback.client.config.BinanceApiConfig;
+import com.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.domain.event.*;
+import com.solidrback.client.domain.market.CandlestickInterval;
 import com.fasterxml.jackson.core.type.TypeReference;
 
 import okhttp3.OkHttpClient;

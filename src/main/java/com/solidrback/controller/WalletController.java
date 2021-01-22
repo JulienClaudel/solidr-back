@@ -1,11 +1,11 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
-import com.solidrback.solidrback.client.domain.account.AssetBalance;
-import com.solidrback.solidrback.exception.ResourceNotFoundException;
-import com.solidrback.solidrback.model.WalletDTO;
-import com.solidrback.solidrback.model.entity.Wallet;
-import com.solidrback.solidrback.repository.WalletRepository;
-import com.solidrback.solidrback.service.WalletService;
+import com.solidrback.client.domain.account.AssetBalance;
+import com.solidrback.exception.ResourceNotFoundException;
+import com.solidrback.model.WalletDTO;
+import com.solidrback.model.entity.Wallet;
+import com.solidrback.repository.WalletRepository;
+import com.solidrback.service.WalletService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,17 +1,17 @@
-package com.solidrback.solidrback.configuration;
+package com.solidrback.configuration;
 
-import com.solidrback.solidrback.client.BinanceApiClientFactory;
-import com.solidrback.solidrback.client.BinanceApiRestClient;
-import com.solidrback.solidrback.client.domain.TimeInForce;
-import com.solidrback.solidrback.client.domain.account.NewOrderResponse;
-import com.solidrback.solidrback.client.domain.account.NewOrderResponseType;
-import com.solidrback.solidrback.client.domain.account.Order;
-import com.solidrback.solidrback.client.domain.account.request.*;
-import com.solidrback.solidrback.client.exception.BinanceApiException;
+import com.solidrback.client.BinanceApiClientFactory;
+import com.solidrback.client.BinanceApiRestClient;
+import com.solidrback.client.domain.TimeInForce;
+import com.solidrback.client.domain.account.NewOrderResponse;
+import com.solidrback.client.domain.account.NewOrderResponseType;
+import com.solidrback.client.domain.account.Order;
+import com.solidrback.client.domain.account.request.*;
+import com.solidrback.client.exception.BinanceApiException;
 
 import java.util.List;
 
-import static com.solidrback.solidrback.client.domain.account.NewOrder.limitBuy;
+import static com.solidrback.client.domain.account.NewOrder.limitBuy;
 
 /**
  * Examples on how to place orders, cancel them, and query account information.

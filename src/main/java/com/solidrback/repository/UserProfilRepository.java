@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.repository;
+package com.solidrback.repository;
 
-import com.solidrback.solidrback.model.entity.UserProfil;
+import com.solidrback.model.entity.UserProfil;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

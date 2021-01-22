@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.client.security;
+package com.solidrback.client.security;
 
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.constant.BinanceApiConstants;
 import okhttp3.HttpUrl;
 import okhttp3.Interceptor;
 import okhttp3.Request;

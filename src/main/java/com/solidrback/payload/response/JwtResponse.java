@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.payload.response;
+package com.solidrback.payload.response;
 
 import java.util.Date;
 import java.util.List;

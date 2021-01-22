@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.model.entity;
+package com.solidrback.model.entity;
 
 import javax.persistence.*;
 import java.time.LocalDate;

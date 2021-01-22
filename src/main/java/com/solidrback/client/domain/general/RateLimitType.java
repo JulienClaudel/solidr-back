@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client.domain.general;
+package com.solidrback.client.domain.general;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

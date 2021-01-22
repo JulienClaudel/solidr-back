@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.model.UserSubscribeStratDTO;
-import com.solidrback.solidrback.model.entity.UserSubscribeStrat;
+import com.solidrback.model.UserSubscribeStratDTO;
+import com.solidrback.model.entity.UserSubscribeStrat;
 
 import java.util.List;
 

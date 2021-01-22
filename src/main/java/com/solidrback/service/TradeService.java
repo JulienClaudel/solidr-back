@@ -1,10 +1,10 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.client.domain.TimeInForce;
-import com.solidrback.solidrback.client.domain.account.NewOrderResponse;
-import com.solidrback.solidrback.model.TradeDTO;
-import com.solidrback.solidrback.model.TradeMinDTO;
-import com.solidrback.solidrback.model.entity.Trade;
+import com.solidrback.client.domain.TimeInForce;
+import com.solidrback.client.domain.account.NewOrderResponse;
+import com.solidrback.model.TradeDTO;
+import com.solidrback.model.TradeMinDTO;
+import com.solidrback.model.entity.Trade;
 
 import java.util.List;
 import java.util.Optional;

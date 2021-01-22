@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.client;
+package com.solidrback.client;
 
-import com.solidrback.solidrback.client.impl.*;
+import com.solidrback.client.impl.*;
 
-import static com.solidrback.solidrback.client.impl.BinanceApiServiceGenerator.getSharedClient;
+import static com.solidrback.client.impl.BinanceApiServiceGenerator.getSharedClient;
 
 /**
  * A factory for creating BinanceApi client objects.
@@ -54,42 +54,42 @@ public class BinanceApiClientFactory {
   /**
    * Creates a new synchronous/blocking REST client.
    */
-  public com.solidrback.solidrback.client.BinanceApiRestClient newRestClient() {
+  public com.solidrback.client.BinanceApiRestClient newRestClient() {
     return new BinanceApiRestClientImpl(apiKey, secret);
   }
 
   /**
    * Creates a new asynchronous/non-blocking REST client.
    */
-  public com.solidrback.solidrback.client.BinanceApiAsyncRestClient newAsyncRestClient() {
+  public com.solidrback.client.BinanceApiAsyncRestClient newAsyncRestClient() {
     return new BinanceApiAsyncRestClientImpl(apiKey, secret);
   }
 
   /**
    * Creates a new asynchronous/non-blocking Margin REST client.
    */
-  public com.solidrback.solidrback.client.BinanceApiAsyncMarginRestClient newAsyncMarginRestClient() {
+  public com.solidrback.client.BinanceApiAsyncMarginRestClient newAsyncMarginRestClient() {
     return new BinanceApiAsyncMarginRestClientImpl(apiKey, secret);
   }
 
   /**
    * Creates a new synchronous/blocking Margin REST client.
    */
-  public com.solidrback.solidrback.client.BinanceApiMarginRestClient newMarginRestClient() {
+  public com.solidrback.client.BinanceApiMarginRestClient newMarginRestClient() {
     return new BinanceApiMarginRestClientImpl(apiKey, secret);
   }
 
   /**
    * Creates a new web socket client used for handling data streams.
    */
-  public com.solidrback.solidrback.client.BinanceApiWebSocketClient newWebSocketClient() {
+  public com.solidrback.client.BinanceApiWebSocketClient newWebSocketClient() {
     return new BinanceApiWebSocketClientImpl(getSharedClient());
   }
 
   /**
    * Creates a new synchronous/blocking Swap REST client.
    */
-  public com.solidrback.solidrback.client.BinanceApiSwapRestClient newSwapRestClient() {
+  public com.solidrback.client.BinanceApiSwapRestClient newSwapRestClient() {
     return new BinanceApiSwapRestClientImpl(apiKey, secret);
   }
 }

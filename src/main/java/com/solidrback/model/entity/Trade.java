@@ -1,9 +1,9 @@
-package com.solidrback.solidrback.model.entity;
+package com.solidrback.model.entity;
 
-import com.solidrback.solidrback.enums.Side;
-import com.solidrback.solidrback.enums.Symbol;
-import com.solidrback.solidrback.enums.TimeInForce;
-import com.solidrback.solidrback.enums.Type;
+import com.solidrback.enums.Side;
+import com.solidrback.enums.Symbol;
+import com.solidrback.enums.TimeInForce;
+import com.solidrback.enums.Type;
 
 import javax.persistence.*;
 import java.math.BigInteger;

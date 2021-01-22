@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.exception;
+package com.solidrback.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

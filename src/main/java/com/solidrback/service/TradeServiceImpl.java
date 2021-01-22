@@ -1,15 +1,15 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-import com.solidrback.solidrback.client.BinanceApiClientFactory;
-import com.solidrback.solidrback.client.BinanceApiRestClient;
-import com.solidrback.solidrback.client.domain.TimeInForce;
-import com.solidrback.solidrback.client.domain.account.NewOrderResponse;
-import com.solidrback.solidrback.client.domain.account.NewOrderResponseType;
-import com.solidrback.solidrback.configuration.TradeConfiguration;
-import com.solidrback.solidrback.model.TradeDTO;
-import com.solidrback.solidrback.model.TradeMinDTO;
-import com.solidrback.solidrback.model.entity.Trade;
-import com.solidrback.solidrback.repository.TradeRepository;
+import com.solidrback.client.BinanceApiClientFactory;
+import com.solidrback.client.BinanceApiRestClient;
+import com.solidrback.client.domain.TimeInForce;
+import com.solidrback.client.domain.account.NewOrderResponse;
+import com.solidrback.client.domain.account.NewOrderResponseType;
+import com.solidrback.configuration.TradeConfiguration;
+import com.solidrback.model.TradeDTO;
+import com.solidrback.model.TradeMinDTO;
+import com.solidrback.model.entity.Trade;
+import com.solidrback.repository.TradeRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +18,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-import static com.solidrback.solidrback.client.domain.account.NewOrder.limitBuy;
-import static com.solidrback.solidrback.client.domain.account.NewOrder.limitSell;
+import static com.solidrback.client.domain.account.NewOrder.limitBuy;
+import static com.solidrback.client.domain.account.NewOrder.limitSell;
 
 @Service
 @RequiredArgsConstructor

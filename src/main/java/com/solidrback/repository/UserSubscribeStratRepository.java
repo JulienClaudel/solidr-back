@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.repository;
+package com.solidrback.repository;
 
-import com.solidrback.solidrback.model.UserSubscribeStratDTO;
-import com.solidrback.solidrback.model.entity.UserSubscribeStrat;
+import com.solidrback.model.UserSubscribeStratDTO;
+import com.solidrback.model.entity.UserSubscribeStrat;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface UserSubscribeStratRepository extends JpaRepository<UserSubscribeStrat, Integer> {
     // Find all the strategies followed by one user
-    @Query("SELECT new com.solidrback.solidrback.model.UserSubscribeStratDTO(" +
+    @Query("SELECT new com.solidrback.model.UserSubscribeStratDTO(" +
             "u.strategyId," +
             "s.strategyLabel, " +
             "u.userEmail, " +
@@ -30,7 +30,7 @@ public interface UserSubscribeStratRepository extends JpaRepository<UserSubscrib
     List<UserSubscribeStratDTO> findAllByUserEmail(String userEmail);
 
     // Find all the users followed by strategy
-    @Query("SELECT new com.solidrback.solidrback.model.UserSubscribeStratDTO(" +
+    @Query("SELECT new com.solidrback.model.UserSubscribeStratDTO(" +
             "u.strategyId," +
             "s.strategyLabel, " +
             "u.userEmail, " +
@@ -49,7 +49,7 @@ public interface UserSubscribeStratRepository extends JpaRepository<UserSubscrib
     List<UserSubscribeStratDTO> findAllByStrategyId(int strategyId);
 
     // Find all FOLLOWERS where EXPERT is
-    @Query("SELECT new com.solidrback.solidrback.model.UserSubscribeStratDTO(" +
+    @Query("SELECT new com.solidrback.model.UserSubscribeStratDTO(" +
             "strat.strategyId," +
             "strat.strategyLabel, " +
             "sub.userEmail, " +
@@ -68,7 +68,7 @@ public interface UserSubscribeStratRepository extends JpaRepository<UserSubscrib
     List<UserSubscribeStratDTO> findAllFollowersByExpert(String userEmail);
 
     // Find all FOLLOWERS by EXPERT'S ANGEL where EXPERT is
-    @Query("SELECT new com.solidrback.solidrback.model.UserSubscribeStratDTO(" +
+    @Query("SELECT new com.solidrback.model.UserSubscribeStratDTO(" +
             "strat.strategyId," +
             "strat.strategyLabel, " +
             "sub.userEmail, " +
@@ -88,7 +88,7 @@ public interface UserSubscribeStratRepository extends JpaRepository<UserSubscrib
     List<UserSubscribeStratDTO> findAllFollowersByAngelAndExpert(int strategyId, String userEmail);
 
     // Find all ANGELS FOLLOWED by one MEMBER
-    @Query("SELECT new com.solidrback.solidrback.model.UserSubscribeStratDTO(" +
+    @Query("SELECT new com.solidrback.model.UserSubscribeStratDTO(" +
             "strat.strategyId," +
             "strat.strategyLabel, " +
             "sub.userEmail, " +

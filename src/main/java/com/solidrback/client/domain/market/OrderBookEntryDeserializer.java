@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.client.domain.market;
+package com.solidrback.client.domain.market;
 
-import com.solidrback.solidrback.client.domain.market.OrderBookEntry;
+import com.solidrback.client.domain.market.OrderBookEntry;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.ObjectCodec;
 import com.fasterxml.jackson.databind.DeserializationContext;

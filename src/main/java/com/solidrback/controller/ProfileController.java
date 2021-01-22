@@ -1,11 +1,11 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
-import com.solidrback.solidrback.exception.EmailNotFoundException;
-import com.solidrback.solidrback.model.entity.UserData;
-import com.solidrback.solidrback.payload.response.MessageResponse;
-import com.solidrback.solidrback.repository.UserDataRepository;
-import com.solidrback.solidrback.service.EmailSenderService;
-import com.solidrback.solidrback.service.UserDataService;
+import com.solidrback.exception.EmailNotFoundException;
+import com.solidrback.model.entity.UserData;
+import com.solidrback.payload.response.MessageResponse;
+import com.solidrback.repository.UserDataRepository;
+import com.solidrback.service.EmailSenderService;
+import com.solidrback.service.UserDataService;
 import org.jboss.aerogear.security.otp.Totp;
 import org.jboss.aerogear.security.otp.api.Base32;
 import org.springframework.beans.factory.annotation.Autowired;

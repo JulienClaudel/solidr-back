@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.security;
+package com.solidrback.security;
 
 import java.util.Date;
 
-import com.solidrback.solidrback.service.UserDetailsImpl;
+import com.solidrback.service.UserDetailsImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

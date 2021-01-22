@@ -1,11 +1,11 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
 
-import com.solidrback.solidrback.client.BinanceApiClientFactory;
-import com.solidrback.solidrback.client.BinanceApiRestClient;
-import com.solidrback.solidrback.client.domain.account.Account;
-import com.solidrback.solidrback.client.domain.account.AssetBalance;
-import com.solidrback.solidrback.model.entity.Wallet;
+import com.solidrback.client.BinanceApiClientFactory;
+import com.solidrback.client.BinanceApiRestClient;
+import com.solidrback.client.domain.account.Account;
+import com.solidrback.client.domain.account.AssetBalance;
+import com.solidrback.model.entity.Wallet;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Example;

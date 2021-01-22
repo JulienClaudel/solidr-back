@@ -1,11 +1,10 @@
-package com.solidrback.solidrback.service;
+package com.solidrback.service;
 
-
-import com.solidrback.solidrback.configuration.CandleCollectConfiguration;
-import com.solidrback.solidrback.enums.Interval;
-import com.solidrback.solidrback.enums.Limit;
-import com.solidrback.solidrback.enums.Symbol;
-import com.solidrback.solidrback.model.CandleCollect;
+import com.solidrback.configuration.CandleCollectConfiguration;
+import com.solidrback.enums.Interval;
+import com.solidrback.enums.Limit;
+import com.solidrback.enums.Symbol;
+import com.solidrback.model.CandleCollect;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.ParameterizedTypeReference;

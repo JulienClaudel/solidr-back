@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.security;
+package com.solidrback.security;
 
 import java.io.IOException;
 

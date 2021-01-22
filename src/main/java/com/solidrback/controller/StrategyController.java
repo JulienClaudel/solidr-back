@@ -1,15 +1,15 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
-import com.solidrback.solidrback.exception.ResourceNotFoundException;
-import com.solidrback.solidrback.model.StrategyDTO;
-import com.solidrback.solidrback.model.entity.Profil;
-import com.solidrback.solidrback.model.entity.Strategy;
-import com.solidrback.solidrback.model.entity.UserProfil;
-import com.solidrback.solidrback.payload.response.MessageResponse;
-import com.solidrback.solidrback.repository.ProfilRepository;
-import com.solidrback.solidrback.repository.StrategyRepository;
-import com.solidrback.solidrback.repository.UserProfilRepository;
-import com.solidrback.solidrback.service.StrategyService;
+import com.solidrback.exception.ResourceNotFoundException;
+import com.solidrback.model.StrategyDTO;
+import com.solidrback.model.entity.Profil;
+import com.solidrback.model.entity.Strategy;
+import com.solidrback.model.entity.UserProfil;
+import com.solidrback.payload.response.MessageResponse;
+import com.solidrback.repository.ProfilRepository;
+import com.solidrback.repository.StrategyRepository;
+import com.solidrback.repository.UserProfilRepository;
+import com.solidrback.service.StrategyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

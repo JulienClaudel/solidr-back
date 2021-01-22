@@ -1,10 +1,10 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
-import com.solidrback.solidrback.model.UserSubscribeStratDTO;
-import com.solidrback.solidrback.model.entity.UserSubscribeStrat;
-import com.solidrback.solidrback.payload.response.MessageResponse;
-import com.solidrback.solidrback.repository.UserSubscribeStratRepository;
-import com.solidrback.solidrback.service.UserSubscribeStratService;
+import com.solidrback.model.UserSubscribeStratDTO;
+import com.solidrback.model.entity.UserSubscribeStrat;
+import com.solidrback.payload.response.MessageResponse;
+import com.solidrback.repository.UserSubscribeStratRepository;
+import com.solidrback.service.UserSubscribeStratService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

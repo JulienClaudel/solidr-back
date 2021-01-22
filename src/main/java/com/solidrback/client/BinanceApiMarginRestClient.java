@@ -1,11 +1,11 @@
-package com.solidrback.solidrback.client;
+package com.solidrback.client;
 
-import com.solidrback.solidrback.client.domain.TransferType;
-import com.solidrback.solidrback.client.domain.account.*;
-import com.solidrback.solidrback.client.domain.account.request.CancelOrderRequest;
-import com.solidrback.solidrback.client.domain.account.request.CancelOrderResponse;
-import com.solidrback.solidrback.client.domain.account.request.OrderRequest;
-import com.solidrback.solidrback.client.domain.account.request.OrderStatusRequest;
+import com.solidrback.client.domain.TransferType;
+import com.solidrback.client.domain.account.*;
+import com.solidrback.client.domain.account.request.CancelOrderRequest;
+import com.solidrback.client.domain.account.request.CancelOrderResponse;
+import com.solidrback.client.domain.account.request.OrderRequest;
+import com.solidrback.client.domain.account.request.OrderStatusRequest;
 
 import java.util.List;
 

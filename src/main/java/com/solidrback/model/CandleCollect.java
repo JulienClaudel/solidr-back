@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.model;
+package com.solidrback.model;
 
-import com.solidrback.solidrback.enums.Interval;
-import com.solidrback.solidrback.enums.Symbol;
+import com.solidrback.enums.Interval;
+import com.solidrback.enums.Symbol;
 import lombok.Builder;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

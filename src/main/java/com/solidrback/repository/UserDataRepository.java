@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.repository;
+package com.solidrback.repository;
 
-import com.solidrback.solidrback.model.UserDataDTO;
-import com.solidrback.solidrback.model.entity.UserData;
+import com.solidrback.model.UserDataDTO;
+import com.solidrback.model.entity.UserData;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -11,7 +11,7 @@ import java.util.Optional;
 @Repository
 public interface UserDataRepository extends JpaRepository<UserData, String> {
 
-    @Query("SELECT new com.solidrback.solidrback.model.UserDataDTO(" +
+    @Query("SELECT new com.solidrback.model.UserDataDTO(" +
             "ud.userEmail, " +
             "ud.statusId, " +
             "ud.userUsername," +

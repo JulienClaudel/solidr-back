@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.validator;
+package com.solidrback.validator;
 
-import com.solidrback.solidrback.payload.request.SignUpRequest;
+import com.solidrback.payload.request.SignUpRequest;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

@@ -1,8 +1,8 @@
-package com.solidrback.solidrback.controller;
+package com.solidrback.controller;
 
-import com.solidrback.solidrback.model.CommentDTO;
-import com.solidrback.solidrback.model.entity.Comment;
-import com.solidrback.solidrback.service.CommentService;
+import com.solidrback.model.CommentDTO;
+import com.solidrback.model.entity.Comment;
+import com.solidrback.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

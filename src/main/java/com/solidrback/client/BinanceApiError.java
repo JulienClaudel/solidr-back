@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.client;
+package com.solidrback.client;
 
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.constant.BinanceApiConstants;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 /**

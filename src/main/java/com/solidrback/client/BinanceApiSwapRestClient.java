@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.client;
+package com.solidrback.client;
 
-import com.solidrback.solidrback.client.domain.SwapRemoveType;
-import com.solidrback.solidrback.client.domain.account.*;
+import com.solidrback.client.domain.SwapRemoveType;
+import com.solidrback.client.domain.account.*;
 import retrofit2.Call;
 import retrofit2.http.Query;
 

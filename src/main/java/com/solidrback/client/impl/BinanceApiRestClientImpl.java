@@ -1,19 +1,19 @@
-package com.solidrback.solidrback.client.impl;
+package com.solidrback.client.impl;
 
-import com.solidrback.solidrback.client.BinanceApiRestClient;
-import com.solidrback.solidrback.client.config.BinanceApiConfig;
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
-import com.solidrback.solidrback.client.domain.account.*;
-import com.solidrback.solidrback.client.domain.account.request.*;
-import com.solidrback.solidrback.client.domain.general.Asset;
-import com.solidrback.solidrback.client.domain.general.ExchangeInfo;
-import com.solidrback.solidrback.client.domain.market.*;
+import com.solidrback.client.BinanceApiRestClient;
+import com.solidrback.client.config.BinanceApiConfig;
+import com.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.domain.account.*;
+import com.solidrback.client.domain.account.request.*;
+import com.solidrback.client.domain.general.Asset;
+import com.solidrback.client.domain.general.ExchangeInfo;
+import com.solidrback.client.domain.market.*;
 import retrofit2.Call;
 
 import java.util.List;
 
-import static com.solidrback.solidrback.client.impl.BinanceApiServiceGenerator.createService;
-import static com.solidrback.solidrback.client.impl.BinanceApiServiceGenerator.executeSync;
+import static com.solidrback.client.impl.BinanceApiServiceGenerator.createService;
+import static com.solidrback.client.impl.BinanceApiServiceGenerator.executeSync;
 
 /**
  * Implementation of Binance's REST API using Retrofit with synchronous/blocking method calls.

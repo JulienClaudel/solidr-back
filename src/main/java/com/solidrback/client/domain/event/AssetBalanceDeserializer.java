@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.client.domain.event;
+package com.solidrback.client.domain.event;
 
-import com.solidrback.solidrback.client.domain.account.AssetBalance;
+import com.solidrback.client.domain.account.AssetBalance;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.ObjectCodec;
 import com.fasterxml.jackson.databind.DeserializationContext;

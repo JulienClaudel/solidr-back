@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client.config;
+package com.solidrback.client.config;
 
 public class BinanceApiConfig {
 

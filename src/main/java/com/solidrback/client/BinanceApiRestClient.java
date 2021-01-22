@@ -1,10 +1,10 @@
-package com.solidrback.solidrback.client;
+package com.solidrback.client;
 
-import com.solidrback.solidrback.client.domain.account.*;
-import com.solidrback.solidrback.client.domain.account.request.*;
-import com.solidrback.solidrback.client.domain.general.Asset;
-import com.solidrback.solidrback.client.domain.general.ExchangeInfo;
-import com.solidrback.solidrback.client.domain.market.*;
+import com.solidrback.client.domain.account.*;
+import com.solidrback.client.domain.account.request.*;
+import com.solidrback.client.domain.general.Asset;
+import com.solidrback.client.domain.general.ExchangeInfo;
+import com.solidrback.client.domain.market.*;
 
 import java.util.List;
 

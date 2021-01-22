@@ -1,19 +1,19 @@
-package com.solidrback.solidrback.client.impl;
+package com.solidrback.client.impl;
 
-import com.solidrback.solidrback.client.BinanceApiAsyncMarginRestClient;
-import com.solidrback.solidrback.client.BinanceApiCallback;
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
-import com.solidrback.solidrback.client.domain.TransferType;
-import com.solidrback.solidrback.client.domain.account.*;
-import com.solidrback.solidrback.client.domain.account.request.CancelOrderRequest;
-import com.solidrback.solidrback.client.domain.account.request.CancelOrderResponse;
-import com.solidrback.solidrback.client.domain.account.request.OrderRequest;
-import com.solidrback.solidrback.client.domain.account.request.OrderStatusRequest;
-import com.solidrback.solidrback.client.domain.event.ListenKey;
+import com.solidrback.client.BinanceApiAsyncMarginRestClient;
+import com.solidrback.client.BinanceApiCallback;
+import com.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.domain.TransferType;
+import com.solidrback.client.domain.account.*;
+import com.solidrback.client.domain.account.request.CancelOrderRequest;
+import com.solidrback.client.domain.account.request.CancelOrderResponse;
+import com.solidrback.client.domain.account.request.OrderRequest;
+import com.solidrback.client.domain.account.request.OrderStatusRequest;
+import com.solidrback.client.domain.event.ListenKey;
 
 import java.util.List;
 
-import static com.solidrback.solidrback.client.impl.BinanceApiServiceGenerator.createService;
+import static com.solidrback.client.impl.BinanceApiServiceGenerator.createService;
 
 /**
  * Implementation of Binance's Margin REST API using Retrofit with asynchronous/non-blocking method calls.

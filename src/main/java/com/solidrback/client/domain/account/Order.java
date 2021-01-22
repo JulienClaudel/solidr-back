@@ -1,10 +1,10 @@
-package com.solidrback.solidrback.client.domain.account;
+package com.solidrback.client.domain.account;
 
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
-import com.solidrback.solidrback.client.domain.OrderSide;
-import com.solidrback.solidrback.client.domain.OrderStatus;
-import com.solidrback.solidrback.client.domain.OrderType;
-import com.solidrback.solidrback.client.domain.TimeInForce;
+import com.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.domain.OrderSide;
+import com.solidrback.client.domain.OrderStatus;
+import com.solidrback.client.domain.OrderType;
+import com.solidrback.client.domain.TimeInForce;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.apache.commons.lang3.builder.ToStringBuilder;

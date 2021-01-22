@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client.constant;
+package com.solidrback.client.constant;
 
 import org.apache.commons.lang3.builder.ToStringStyle;
 

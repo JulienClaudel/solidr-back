@@ -1,9 +1,9 @@
-package com.solidrback.solidrback.model;
+package com.solidrback.model;
 
-import com.solidrback.solidrback.enums.Side;
-import com.solidrback.solidrback.enums.Symbol;
-import com.solidrback.solidrback.enums.TimeInForce;
-import com.solidrback.solidrback.enums.Type;
+import com.solidrback.enums.Side;
+import com.solidrback.enums.Symbol;
+import com.solidrback.enums.TimeInForce;
+import com.solidrback.enums.Type;
 import lombok.Builder;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

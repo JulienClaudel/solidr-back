@@ -1,14 +1,14 @@
-package com.solidrback.solidrback.client.impl;
+package com.solidrback.client.impl;
 
-import com.solidrback.solidrback.client.BinanceApiSwapRestClient;
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
-import com.solidrback.solidrback.client.domain.SwapRemoveType;
-import com.solidrback.solidrback.client.domain.account.*;
+import com.solidrback.client.BinanceApiSwapRestClient;
+import com.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.domain.SwapRemoveType;
+import com.solidrback.client.domain.account.*;
 
 import java.util.List;
 
-import static com.solidrback.solidrback.client.impl.BinanceApiServiceGenerator.createService;
-import static com.solidrback.solidrback.client.impl.BinanceApiServiceGenerator.executeSync;
+import static com.solidrback.client.impl.BinanceApiServiceGenerator.createService;
+import static com.solidrback.client.impl.BinanceApiServiceGenerator.executeSync;
 
 /**
  * Implementation of Binance's SWAP REST API using Retrofit method calls.

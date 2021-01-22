@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.client.exception;
+package com.solidrback.client.exception;
 
-import com.solidrback.solidrback.client.BinanceApiError;
+import com.solidrback.client.BinanceApiError;
 
 /**
  * An exception which can occur while invoking methods of the Binance API.

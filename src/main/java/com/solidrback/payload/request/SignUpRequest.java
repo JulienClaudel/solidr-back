@@ -1,6 +1,6 @@
-package com.solidrback.solidrback.payload.request;
+package com.solidrback.payload.request;
 
-import com.solidrback.solidrback.validator.PasswordMatches;
+import com.solidrback.validator.PasswordMatches;
 
 import java.util.Set;
 

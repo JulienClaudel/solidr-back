@@ -1,4 +1,4 @@
-package com.solidrback.solidrback.client.constant;
+package com.solidrback.client.constant;
 
 
 import java.util.Arrays;

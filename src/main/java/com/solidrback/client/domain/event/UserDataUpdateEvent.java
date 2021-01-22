@@ -1,7 +1,7 @@
-package com.solidrback.solidrback.client.domain.event;
+package com.solidrback.client.domain.event;
 
-import com.solidrback.solidrback.client.constant.BinanceApiConstants;
-import com.solidrback.solidrback.client.exception.UnsupportedEventException;
+import com.solidrback.client.constant.BinanceApiConstants;
+import com.solidrback.client.exception.UnsupportedEventException;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import org.apache.commons.lang3.builder.ToStringBuilder;
